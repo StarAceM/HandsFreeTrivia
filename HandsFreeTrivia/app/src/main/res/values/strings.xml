@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HandsFreeTrivia</string>
+    <string name="welcome">Welcome</string>
+    <string name="to">to</string>
+    <string name="intro_statement">You can Control all the Action with Your Voice!!!</string>
+    <string name="you_can_speak">= a command you can speak</string>
 </resources>
