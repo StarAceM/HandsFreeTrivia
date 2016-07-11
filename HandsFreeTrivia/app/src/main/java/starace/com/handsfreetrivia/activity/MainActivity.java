@@ -1,7 +1,9 @@
-package starace.com.handsfreetrivia;
+package starace.com.handsfreetrivia.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import starace.com.handsfreetrivia.R;
 
 public class MainActivity extends AppCompatActivity {
 
