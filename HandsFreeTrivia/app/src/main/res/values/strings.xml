@@ -4,4 +4,8 @@
     <string name="to">to</string>
     <string name="intro_statement">You can Control all the Action with Your Voice!!!</string>
     <string name="you_can_speak">= a command you can speak</string>
+    <string name="go_home">Take Me Home</string>
+    <string name="go_back">Take Me Back</string>
+    <string name="intro_statement_bottom">The Speak Icon followed by raised text means all you have to do is speak and off you go!.</string>
+    <string name="home_title">HOME</string>
 </resources>
