@@ -8,4 +8,7 @@
     <string name="go_back">Take Me Back</string>
     <string name="intro_statement_bottom">The Speak Icon followed by raised text means all you have to do is speak and off you go!.</string>
     <string name="home_title">HOME</string>
+    <string name="build_game">Build a Game</string>
+    <string name="my_badges">My Badges</string>
+    <string name="to_welcome">To Welcome</string>
 </resources>
