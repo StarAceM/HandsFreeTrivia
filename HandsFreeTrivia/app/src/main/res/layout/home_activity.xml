@@ -102,49 +102,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/home_to_welcom_layout"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:layout_below="@id/home_my_badges_layout"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginRight="15dp"
-            >
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/speak_icon_35_33"
-                android:layout_gravity="center"/>
-
-            <android.support.v7.widget.CardView
-                xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                card_view:cardCornerRadius="5dp"
-                android:layout_marginLeft="20dp"
-                card_view:cardElevation="20dp"
-                card_view:cardBackgroundColor="@color/textBlackLight"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="@string/to_welcome"
-                    android:textSize="20sp"
-                    android:layout_gravity="center"
-                    android:textColor="@android:color/white"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"/>
-
-            </android.support.v7.widget.CardView>
-
-        </LinearLayout>
 
 
     </RelativeLayout>
@@ -155,6 +113,47 @@
        android:layout_height="wrap_content"
        android:layout_weight="1">
 
+       <LinearLayout
+           android:id="@+id/home_to_welcome_layout"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp"
+           android:gravity="right"
+           android:layout_marginRight="15dp"
+           >
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/speak_icon_35_33"
+               android:layout_gravity="center"/>
+
+           <android.support.v7.widget.CardView
+               xmlns:card_view="http://schemas.android.com/apk/res-auto"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               card_view:cardCornerRadius="5dp"
+               android:layout_marginLeft="20dp"
+               card_view:cardElevation="20dp"
+               card_view:cardBackgroundColor="@color/textBlackLight"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAlignment="center"
+                   android:text="@string/to_welcome"
+                   android:textSize="20sp"
+                   android:layout_gravity="center"
+                   android:textColor="@android:color/white"
+                   android:paddingLeft="5dp"
+                   android:paddingRight="5dp"/>
+
+           </android.support.v7.widget.CardView>
+
+       </LinearLayout>
 
 
 
