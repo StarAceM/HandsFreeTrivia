@@ -4,4 +4,29 @@
     <string name="to">to</string>
     <string name="intro_statement">You can Control all the Action with Your Voice!!!</string>
     <string name="you_can_speak">= a command you can speak</string>
+    <string name="go_home">Take Me Home</string>
+    <string name="go_back">Take Me Back</string>
+    <string name="intro_statement_bottom">The Speak Icon followed by raised text means all you have to do is speak and off you go!.</string>
+    <string name="home_title">HOME</string>
+    <string name="build_game">Build a Game</string>
+    <string name="my_badges">My Badges</string>
+    <string name="to_welcome">To Welcome</string>
+    <string name="game_type_title">Game Type</string>
+    <string name="type_traditional">Traditional</string>
+    <string name="type_lightning">Lightning</string>
+    <string name="type_free_play">Free Play</string>
+    <string name="to_home">To Home</string>
+    <string name="parameters_title">Parameters</string>
+    <string name="parameters_num_questions">Number of Questions</string>
+    <string name="plus">+</string>
+    <string name="ten">10</string>
+    <string name="comma">,</string>
+    <string name="twenty">20</string>
+    <string name="thirty">30</string>
+    <string name="fourty">40</string>
+    <string name="fifty">50</string>
+    <string name="num_questions_example"> e.g. \" Number of Questions 10 \"</string>
+    <string name="parameters_num_questions_select">Select the Number of Questions to Answer</string>
+
+
 </resources>
