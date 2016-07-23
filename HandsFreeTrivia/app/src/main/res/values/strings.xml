@@ -41,6 +41,7 @@
     <string name="category_title">Categories</string>
     <string name="placeHolder">place holder</string>
     <string name="game_start">Start Game!!</string>
+    <string name="placeHolder_long">This is the long place holder for the in game question. How many hours does it take to build an app!!!?</string>
 
     <string-array name="categories">
         <item>All</item>

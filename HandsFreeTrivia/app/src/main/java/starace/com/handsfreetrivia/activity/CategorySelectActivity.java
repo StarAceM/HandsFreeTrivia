@@ -21,7 +21,7 @@ public class CategorySelectActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.category_select);
+        setContentView(R.layout.category_select_activity);
 
         initViews();
 

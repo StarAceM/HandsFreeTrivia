@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textBlackLight">
+
+    <TextView
+        android:id="@+id/game_category_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_title"
+        android:textSize="50sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/game_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeHolder_long"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/game_category_text"
+        />
+
+        <LinearLayout
+            android:id="@+id/game_answer_one_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/game_answer_two_layout"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:id="@+id/answer_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/placeHolder"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_answer_two_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/game_answer_three_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:id="@+id/answer_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/placeHolder"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_answer_three_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/game_answer_four_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:id="@+id/answer_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/placeHolder"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/game_answer_four_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/game_navigation_layout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:id="@+id/answer_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/placeHolder"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/game_navigation_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/category_to_home_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"
+                android:layout_gravity="center"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/to_home"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/category_start_game_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/speak_icon_35_33"
+                android:layout_gravity="center"/>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                card_view:cardCornerRadius="5dp"
+                android:layout_marginLeft="20dp"
+                card_view:cardElevation="20dp"
+                card_view:cardBackgroundColor="@color/textBlackLight"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/game_start"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
