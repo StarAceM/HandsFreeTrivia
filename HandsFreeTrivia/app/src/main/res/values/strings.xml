@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HandsFreeTrivia</string>
+    <string name="app_name">SpeakTrivia</string>
     <string name="welcome">Welcome</string>
     <string name="to">to</string>
     <string name="intro_statement">You can Control all the Action with Your Voice!!!</string>
@@ -38,6 +38,21 @@
     <string name="parameters_select_time">Select the Starting Answer Time Limit (sec)</string>
     <string name="parameters_start_times">Starting Answer Time</string>
     <string name="start_time_example">e.g. \"Starting Answer Time 30\"</string>
+    <string name="category_title">Categories</string>
+    <string name="placeHolder">place holder</string>
+    <string name="game_start">Start Game!!</string>
+    <string name="placeHolder_long">This is the long place holder for the in game question. How many hours does it take to build an app!!!?</string>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>History</item>
+        <item>Science</item>
+        <item>Music</item>
+        <item>Geography</item>
+        <item>Sports</item>
+        <item>Entertainment</item>
+        <item>Arts</item>
+    </string-array>
 
 
 </resources>
